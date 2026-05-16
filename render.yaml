@@ -1,0 +1,19 @@
+services:
+  - type: worker
+    name: jobscout-bot
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python bot.py
+    envVars:
+      - key: TELEGRAM_BOT_TOKEN
+        sync: false
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: AUTHORIZED_USER_ID
+        sync: false
+      - key: SCAN_INTERVAL_HOURS
+        value: 4
+    disk:
+      name: jobscout-data
+      mountPath: /opt/render/project/src/data
+      sizeGB: 1
