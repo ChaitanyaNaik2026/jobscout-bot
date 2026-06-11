@@ -130,7 +130,3 @@ Send `/upload` anytime to add a new resume. You can have **multiple resumes acti
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-naikchaitanya-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/naikchaitanya)
 
 ---
-
-## ⚠️ Disclaimer
-
-This project is intended for **educational purposes only**. Job scraping may be subject to the Terms of Service of individual platforms. Use responsibly and at your own risk.
